@@ -21,6 +21,10 @@ trusted_clients =
 	192.168.0.0/16
 	FE80::/10
 	::1/128
+	100.87.14.35
+	100.123.246.45
+	100.99.217.33
+	100.120.178.71
 
 [octoprint_compat]
 
@@ -51,8 +55,7 @@ managed_services = klipper
 type = git_repo
 path = ~/crowsnest
 origin = https://github.com/mainsail-crew/crowsnest.git
-managed_services = crowsnest
-install_script = tools/install.sh
+install_script = tools/pkglist.sh
 
 [update_manager KlipperScreen]
 type = git_repo
