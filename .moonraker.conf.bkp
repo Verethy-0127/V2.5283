@@ -97,3 +97,7 @@ system_dependencies = system-dependencies.json
 primary_branch = main
 managed_services = klipper
 
+[spoolman]
+server = http://10.69.2.9:7912/
+sync_rate = 5
+
