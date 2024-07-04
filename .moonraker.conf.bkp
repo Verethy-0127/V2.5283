@@ -93,3 +93,12 @@ managed_services = klipper
 server = http://10.69.2.9:7912/
 sync_rate = 5
 
+[update_manager klipper_tmc_autotune]
+type = git_repo
+channel = dev
+path = ~/klipper_tmc_autotune
+origin = https://github.com/andrewmcgr/klipper_tmc_autotune.git
+managed_services = klipper
+primary_branch = main
+install_script = install.sh
+
